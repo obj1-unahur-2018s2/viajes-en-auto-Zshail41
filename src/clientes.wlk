@@ -11,7 +11,7 @@ object teresa {
 	method precioPorKm() {return (22)}
 }
 object melina {
-	var _cliente
+	var _cliente = null
 	method trabajaPara(cliente) { _cliente = cliente}
 	
 	method precioPorKm() { return _cliente.precioPorKm() -3}
